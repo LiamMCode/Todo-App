@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: mintcream;
+  color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  height: 20vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column
+}
+
+li {
+  flex: 1;
+  margin: 5px
+}
+
+.headings, .values{ 
+    display: inline-block;
+    position: relative;
+    
+}
